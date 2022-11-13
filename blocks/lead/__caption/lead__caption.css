@@ -4,5 +4,6 @@
   font-size: 10px;
   font-weight: 400;
   text-transform: uppercase;
-  margin: 0 148px;
+  margin: 0;
+  align-self: flex-start;
 }

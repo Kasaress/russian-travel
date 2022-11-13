@@ -1,0 +1,5 @@
+.cover__overlay {
+    background: #2A2C2F;
+    opacity: 0.3;
+    z-index: 1;
+}
