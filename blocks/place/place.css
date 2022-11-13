@@ -1,0 +1,10 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+  "place__title place__url-heading"
+  "place__title place__link"
+  "place__image place__paragraph"
+  "place__image place__paragraph"
+}

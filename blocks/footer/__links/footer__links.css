@@ -1,0 +1,7 @@
+.footer__links {
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 18px
+}
