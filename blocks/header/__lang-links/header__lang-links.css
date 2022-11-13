@@ -1,0 +1,9 @@
+.header__lang-links {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 400;
+  gap: 18px
+}

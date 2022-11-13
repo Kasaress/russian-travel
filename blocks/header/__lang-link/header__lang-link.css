@@ -1,0 +1,8 @@
+.header__lang-link {
+    color: white;
+    text-decoration: none;
+    transition: text-decoration .5s ease;
+  }
+  .header__lang-link:hover {
+    text-decoration: underline
+  }
