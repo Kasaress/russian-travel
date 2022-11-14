@@ -1,6 +1,6 @@
 .intro__text {
-  width: 690px;
-  height: 208px;
+  max-width: 690px;
+  /* height: 208px; */
   color: white;
   line-height: 163%;
   font-size: 16px;
@@ -8,4 +8,5 @@
   text-align: start;
   margin: 0;
   margin-top: 40px;
+  padding: 0;
 }

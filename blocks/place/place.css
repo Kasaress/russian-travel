@@ -1,10 +1,11 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas:
-  "place__title place__url-heading"
-  "place__title place__link"
-  "place__image place__paragraph"
-  "place__image place__paragraph"
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: min-content 1fr;
+  row-gap: 48px;
+  column-gap: 40px;
+  /* border: 1px solid floralwhite; */
+  margin-bottom: 80px;
+  justify-items: start;
+  align-items: start
 }
