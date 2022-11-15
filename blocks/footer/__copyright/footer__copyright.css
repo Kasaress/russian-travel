@@ -8,3 +8,11 @@
   text-align: right;
   /* border: 1px solid floralwhite; */
 }
+
+@media screen and (max-width: 767px) {
+  .footer__copyright   {
+    text-align: left;
+    margin-top: 48px;
+    line-height: 14px;
+  }
+}

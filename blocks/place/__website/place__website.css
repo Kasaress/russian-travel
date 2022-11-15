@@ -4,3 +4,21 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .place__website   {
+    
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__website   {
+      
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website   {
+     padding-left: 16px;
+  }
+}

@@ -5,5 +5,14 @@
   line-height: 28px;
   font-size: 24px;
   font-weight: 400;
-  gap: 18px
+  gap: 18px;
+  padding-top: 46px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-links  {
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 30px;
+  }
 }

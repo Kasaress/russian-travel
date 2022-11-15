@@ -6,3 +6,9 @@
   object-fit: fill;
   object-position: center;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    margin-top: 40px;
+  }
+}

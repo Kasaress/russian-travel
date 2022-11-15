@@ -8,3 +8,25 @@
   padding: 0;
   margin-bottom: 26px;
 }
+
+.place__paragraph:last-child {
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph  {
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph  {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph  {
+    padding: 0 16px 0;
+
+  }
+}
