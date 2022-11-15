@@ -3,4 +3,10 @@
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }

@@ -1,5 +1,14 @@
 .cover__overlay {
     background: #2A2C2F;
-    opacity: 0.3;
+    opacity: .3;
+    /* border: 1px solid floralwhite; */
+    width: 1184px;
+    height: 740px;
+    position: absolute;
+    top: 0;
+    right: 0;
     z-index: 1;
+}
+.cover__overlay:hover {
+    opacity: .8;
 }

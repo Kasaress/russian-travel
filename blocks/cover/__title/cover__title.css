@@ -2,7 +2,12 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  text-align: center;
   color: #FFFFFF;
   z-index: 2;
+  /* border: 1px solid floralwhite; */
+  max-width: 560px;
+  text-align: center;
+  margin: 0 auto;;
+  align-self: center;
+  
 }
