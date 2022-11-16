@@ -3,7 +3,7 @@
   display: flex;
   /* width: 100%; */
   justify-content: space-between;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 @media screen and (max-width: 1279px) {
