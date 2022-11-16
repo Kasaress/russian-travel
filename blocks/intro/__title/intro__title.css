@@ -5,4 +5,5 @@
   font-weight: 900;
   text-align: start;
   margin: 0;
+  text-rendering: optimizeLegibility;
 }

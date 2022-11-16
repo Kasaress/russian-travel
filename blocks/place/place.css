@@ -4,10 +4,10 @@
   grid-template-rows: min-content 1fr;
   row-gap: 48px;
   column-gap: 40px;
-  /* border: 1px solid floralwhite; */
+  border: 1px solid floralwhite;
   margin-bottom: 80px;
-  justify-items: start;
-  align-items: start
+  /* justify-items: start;
+  align-items: start */
 }
 
 @media screen and (max-width: 1279px) {
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 767px) {
   .place   {
-    grid-template-columns: 320px;
+    grid-template-columns: 1fr;
     margin-bottom: 50px;
   }
 }
