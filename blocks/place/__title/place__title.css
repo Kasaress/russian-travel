@@ -3,8 +3,7 @@
   font-size: 72px;
   line-height: 76px;
   color: #FFFFFF;
-  width: 460px;
-  /* border: 1px solid floralwhite; */
+  max-width: 460px;
   margin: 0;
   padding: 0;
   align-self: end;
@@ -30,5 +29,6 @@
      padding-left: 16px;
      font-size: 32px;
      line-height: 35px;
+     max-width: 320px;
   }
 }

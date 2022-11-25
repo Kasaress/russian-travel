@@ -1,20 +1,7 @@
 .place__website {
   align-self: end;
-  /* border: 1px solid floralwhite; */
   margin: 0;
   padding: 0;
-}
-
-@media screen and (max-width: 1279px) {
-  .place__website   {
-    
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .place__website   {
-      
-  }
 }
 
 @media screen and (max-width: 767px) {

@@ -1,9 +1,7 @@
 .photo-grid {
   margin: 92px 48px 0 48px;
   display: grid;
-  /* max-width: 1184px; */
   width: calc(100% - 2 * 48px);
-  /* grid-template-columns: repeat(4, 284px); */
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px 16px;
@@ -11,7 +9,6 @@
   justify-items: center;
   align-items: center;
 }
-
 
 @media screen and (max-width: 1279px) {
   .photo-grid {

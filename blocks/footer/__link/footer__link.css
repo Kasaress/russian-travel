@@ -6,7 +6,6 @@
   text-decoration: none;
   opacity: 1;
   transition: opacity .5s ease-in-out;
-  /* border: 1px solid floralwhite; */
 }
 
 .footer__link:hover {

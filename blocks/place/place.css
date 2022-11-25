@@ -1,25 +1,22 @@
 .place {
   display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: min-content 1fr;
+  grid-template-columns: minmax(440px, 460px) 1fr;
+  grid-template-rows: repeat(2, min-content);
   row-gap: 48px;
   column-gap: 40px;
-  border: 1px solid floralwhite;
   margin-bottom: 80px;
-  /* justify-items: start;
-  align-items: start */
 }
 
 @media screen and (max-width: 1279px) {
   .place  {
-    grid-template-columns: 440px 1fr;
+    grid-template-columns: 440px minmax(352px, 456px);
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place   {
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     margin-bottom: 72px;
     column-gap: 28px;
   }
@@ -27,7 +24,7 @@
 
 @media screen and (max-width: 767px) {
   .place   {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(320px, 1fr);
     margin-bottom: 50px;
   }
 }

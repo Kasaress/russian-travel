@@ -4,13 +4,12 @@
   line-height: 76px;
   color: #FFFFFF;
   z-index: 2;
-  /* border: 1px solid floralwhite; */
   max-width: 560px;
   text-align: center;
   margin: 0 auto;;
   align-self: center;
   text-rendering: optimizeLegibility;
-  
+  opacity: 1;
 }
 
 @media screen and (max-width: 767px) {
