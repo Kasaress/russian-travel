@@ -2,7 +2,7 @@
     background: #2A2C2F;
     opacity: .3;
     width: 100%;
-    min-height: 740px;
+    height: 100%;
     position: absolute;
     align-items: center;
     top: 0;
@@ -14,10 +14,3 @@
 .cover:hover .cover__overlay {
     opacity: .8;
 }
-
-@media screen and (max-width: 1279px) {
-    .cover__overlay  {
-      width: 100%;
-      min-height: 640px;
-    }
-  }
