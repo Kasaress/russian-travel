@@ -3,8 +3,14 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 92px 48px 24px;
+    max-width: 1184px;
 }
 
+@media screen and (max-width: 1023px) {
+  .footer  {
+    margin: 64px 24px 24px;
+  }
+}
 
   @media screen and (max-width: 767px) {
     .footer  {
