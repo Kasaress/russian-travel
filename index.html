@@ -8,12 +8,10 @@
   </head>
   <body class="page">
     <header class="header">
-      <div class="header__logo">
-        <img src="images/header-logo.svg" alt="Логотип сайта" />
-      </div>
+      <img class="header__logo" src="images/header-logo.svg" alt="Логотип сайта" />
       <div class="header__lang-links">
-        <p class="header__lang-link">Ru</p>
-        <p class="header__lang-link">En</p>
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="#" class="header__lang-link">En</a>
       </div>
     </header>
     <main class="content">
@@ -30,7 +28,7 @@
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
-        <h3 class="intro__title">Чего мы там не видели?</h3>
+        <h3 class="intro__title">Чего мы там не&nbsp;видели?</h3>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
           36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
@@ -43,11 +41,11 @@
           некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li>Часовых поясов <span class="intro__span">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span></li>
+          <li>Природных заповедников <span class="intro__span">105</span></li>
+          <li>Аэропортов <span class="intro__span">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -124,7 +122,7 @@
             src="images/place-kosa.jpg"
             alt="Куршская коса"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
               горизонта — спокойного Куршского залива с одной стороны и
@@ -156,7 +154,7 @@
             src="images/place-kolsky.jpg"
             alt="Кольский"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская
               тундра, от которой на юг — тайга, а на север — Ледовитый океан,
@@ -184,7 +182,7 @@
             >
           </div>
           <img class="place__image" src="images/place-altai.jpg" alt="Алтай" />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за
               гор: если ехать вдоль хребта, вы увидите склоны, усыпанные
@@ -213,7 +211,7 @@
             src="images/place-winter-baikal.jpg"
             alt="Байкал"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Всем известен Байкал как крупнейшее озеро в мире. Многие также
               знают, что это самый большой источник пресной воды и одно из
@@ -241,7 +239,7 @@
             src="images/place-karelia.jpg"
             alt="Карелия"
           />
-          <div>
+          <div class="place__description">
             <p class="place__paragraph">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
               сибирская лиственница не растёт западнее Водлозера. Зато здесь она
@@ -259,7 +257,7 @@
       <section>
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover">
           <div class="cover__overlay"></div>
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.
