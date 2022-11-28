@@ -1,13 +1,20 @@
 .lead__image {
   width: 100%;
-  margin-top: 54px;
+  margin: 0;
+  padding-top: 64px;
   object-fit: fill;
   object-position: center;
   display: block;
 }
 
+@media screen and (max-width: 1279px) {
+  .lead__image {
+    padding-top: 56px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .lead__image {
-    margin-top: 40px;
+    padding-top: 40px;
   }
 }

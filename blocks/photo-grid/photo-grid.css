@@ -1,5 +1,6 @@
 .photo-grid {
   margin: 92px 48px 0 48px;
+  padding: 0;
   display: grid;
   width: calc(100% - 2 * 48px);
   grid-template-columns: repeat(4, 1fr);
@@ -8,6 +9,8 @@
   justify-content: center;
   justify-items: center;
   align-items: center;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 1279px) {

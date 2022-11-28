@@ -3,16 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Страница про различные веб-технологии" />
+    <meta name="keywords" content="Путешествия, Россия" />
+    <meta name="author" content="Яна Бубнова" />
     <link rel="stylesheet" href="pages/index.css" />
     <title>Путешествия по России</title>
   </head>
   <body class="page">
     <header class="header">
-      <img class="header__logo" src="images/header-logo.svg" alt="Логотип сайта" />
-      <div class="header__lang-links">
-        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
-      </div>
+      <img
+        class="header__logo"
+        src="images/header-logo.svg"
+        alt="Логотип сайта"
+      />
+      <ul class="header__lang-links">
+        <li>
+          <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+        </li>
+        <li><a href="#" class="header__lang-link">En</a></li>
+      </ul>
     </header>
     <main class="content">
       <section class="lead">
@@ -20,15 +29,19 @@
         <p class="lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <img
-          class="lead__image"
-          src="images/lead-polka.jpg"
-          alt="Девушка спит в поезде"
-        />
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img
+            class="lead__image"
+            src="images/lead-polka.jpg"
+            alt="Девушка спит в поезде"
+          />
+          <figcaption>
+            <p class="lead__caption">ваша полка — верхняя</p>
+          </figcaption>
+        </figure>
       </section>
       <section class="intro">
-        <h3 class="intro__title">Чего мы там не&nbsp;видели?</h3>
+        <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
           36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
@@ -42,80 +55,114 @@
         </p>
         <ul class="intro__list">
           <li>Часовых поясов <span class="intro__span">11</span></li>
-          <li>Объектов природного наследия ЮНЕСКО <span class="intro__span">12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__span">16</span></li>
+          <li>
+            Объектов природного наследия ЮНЕСКО
+            <span class="intro__span">12</span>
+          </li>
+          <li>
+            Объектов культурного наследия ЮНЕСКО
+            <span class="intro__span">16</span>
+          </li>
           <li>Природных заповедников <span class="intro__span">105</span></li>
           <li>Аэропортов <span class="intro__span">241</span></li>
         </ul>
       </section>
-      <section class="photo-grid">
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-train.jpg"
-          alt="поезд"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-atharva-tulsi.jpg"
-          alt="горы"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-tuman.jpg"
-          alt="туман"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-sochi.jpg"
-          alt="сочи"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-arisa.jpg"
-          alt="ариса"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-baikal.jpg"
-          alt="байкал"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-elbrus.jpg"
-          alt="эльбрус"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-kondratiev.jpg"
-          alt="кондратьев"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-kamchatka-1.jpg"
-          alt="камчатка"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-kamchatka-2.jpg"
-          alt="камчатка"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-baikal-2.jpg"
-          alt="байкал"
-        />
-        <img
-          class="photo-grid__item"
-          src="images/photo-grid-ergaki.jpg"
-          alt="ергаки"
-        />
+      <section>
+        <ul class="photo-grid">
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-train.jpg"
+              alt="поезд"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-atharva-tulsi.jpg"
+              alt="горы"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-tuman.jpg"
+              alt="туман"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-sochi.jpg"
+              alt="сочи"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-arisa.jpg"
+              alt="ариса"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-baikal.jpg"
+              alt="байкал"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-elbrus.jpg"
+              alt="эльбрус"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-kondratiev.jpg"
+              alt="кондратьев"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-kamchatka-1.jpg"
+              alt="камчатка"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-kamchatka-2.jpg"
+              alt="камчатка"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-baikal-2.jpg"
+              alt="байкал"
+            />
+          </li>
+          <li>
+            <img
+              class="photo-grid__item"
+              src="images/photo-grid-ergaki.jpg"
+              alt="ергаки"
+            />
+          </li>
+        </ul>
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank"
+              >park-kosa.ru</a
+            >
           </div>
           <img
             class="place__image"
@@ -138,14 +185,15 @@
               прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
               class="place__link"
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+              target="_blank"
               >National Geographic</a
             >
           </div>
@@ -170,14 +218,15 @@
               в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
               class="place__link"
               href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+              target="_blank"
               >Facebook</a
             >
           </div>
@@ -197,12 +246,15 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://vk.com/baikalmile"
+            <a
+              class="place__link"
+              href="https://vk.com/baikalmile"
+              target="_blank"
               >https://vk.com/baikalmile</a
             >
           </div>
@@ -225,12 +277,12 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://vodlozero.ru"
+            <a class="place__link" href="http://vodlozero.ru" target="_blank"
               >http://vodlozero.ru/</a
             >
           </div>
@@ -252,10 +304,14 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section>
-        <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover">
+        <a
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          class="cover"
+          target="_blank"
+        >
           <div class="cover__overlay"></div>
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">
@@ -266,26 +322,51 @@
       </section>
     </main>
     <footer class="footer">
-      <ul class="footer__links">
-        <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
-        <li>
-          <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-        </li>
-        <li>
-          <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-        </li>
-        <li>
-          <a href="https://calendar.yandex.ru" class="footer__link"
-            >Календарь</a
-          >
-        </li>
-        <li>
-          <a href="https://travel.yandex.ru" class="footer__link"
-            >Путешествия</a
-          >
-        </li>
-      </ul>
-      <p class="footer__copyright">© 2022. Яна Бубнова</p>
+      <nav>
+        <ul class="footer__links">
+          <li>
+            <a
+              href="https://yandex.ru/maps"
+              class="footer__link"
+              target="_blank"
+              >Карты</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://yandex.ru/pogoda"
+              class="footer__link"
+              target="_blank"
+              >Погода</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://rasp.yandex.ru"
+              class="footer__link"
+              target="_blank"
+              >Расписание</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://calendar.yandex.ru"
+              class="footer__link"
+              target="_blank"
+              >Календарь</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://travel.yandex.ru"
+              class="footer__link"
+              target="_blank"
+              >Путешествия</a
+            >
+          </li>
+        </ul>
+      </nav>
+        <p class="footer__copyright">© 2022. Яна Бубнова</p>
     </footer>
   </body>
 </html>
